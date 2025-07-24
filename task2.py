@@ -10,3 +10,13 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+generes = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-fi", "Documentary", "Fantasy"]
+generes.insert(8,"Drama")
+print(generes)
+
+print(generes)
+print(len(generes))
+they = generes[-1]
+there = generes[0]
+young = there, they
+print(young)
